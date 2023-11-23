@@ -22,7 +22,7 @@
       <console name="sqlconnection" type="STANDARD" schema="information_schema" session="Main"><![CDATA[SELECT * FROM students;]]></console>
     </connection>
     <connection id="b63791e9-8454-4178-ab82-d0b3fce0cfb7">
-      <console name="studentlocalhost" type="STANDARD" schema="" session="Main" />
+      <console name="studentlocalhost" type="STANDARD" schema="" session="Main"><![CDATA[SELECT * FROM student;]]></console>
     </connection>
     <connection id="149bcab2-1189-4aff-8eed-de9cd8226ba8">
       <console name="studentsql" type="STANDARD" schema="" session="Main" />
@@ -38,7 +38,6 @@
     <open-files>
       <object connection-id="b63791e9-8454-4178-ab82-d0b3fce0cfb7" object-ref="consoles/studentlocalhost" />
       <object connection-id="af5f97ec-e41d-4872-bd2c-c0cf0697d681" object-ref="consoles/Connection" />
-      <object connection-id="142aa592-018e-452e-9da0-9ae994e2c90f" object-ref="consoles/sqlconnection" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
