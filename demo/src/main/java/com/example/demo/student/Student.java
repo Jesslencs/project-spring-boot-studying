@@ -1,8 +1,21 @@
 package com.example.demo.student;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
+
 import java.time.LocalDate;
+@Entity
+@Table
 
 public class Student {
+    @Id
+    @SequenceGenerator(
+            name = "student-sequence",
+            sequenceName = "student_sequence",
+            allocationSize = 1
+    )
     private Long id;
     private String name;
     private String email;
